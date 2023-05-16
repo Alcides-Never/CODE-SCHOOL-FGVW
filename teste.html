@@ -1,0 +1,75 @@
+
+<!DOCTYPE html> <!-- Define o tipo de documento que será trabalhado --> 
+<html lang="pt-br"> <!-- Definição do idioma -->
+<head> <!-- Configuração da página -->
+    <meta charset="UTF-8"> <!-- Teclado Latino americano --> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatilidade com IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Primeira config da responsivdade -->
+    <title>Home - Primeiro Site</title> <!-- Bom referenciador de páginas, irá aparecer na guia -->
+    <style>
+        body{
+            background-color: black;
+            color:white; /* Dentro da estilização, o color sempre impactará o texto primeiro */
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> <!-- Definir o corpo da página -->
+    <header><!-- Cabeçalho(Logo, Menu) -->
+        <p>Teste</p>
+        <!-- <img src="./random.jpg" alt="imagem randomica qualquer" width="500" height="500"> -->
+        <img src="./random.jpg" alt="uma imagem qualquer" style="width:500px; height:500px;">
+        <a href="https://youtu.be/t6fwF-a-WRA">link randomico</a>
+    </header>
+    <main>  <!-- Define o conteúdo principal da pagina -->
+        <section> <!--Define a seçao - com semantica-->
+            <div> <!-- Define a divisão e agrupamento de elementos - sem semantica-->
+                <h1 style="color: red";>Teste1</h1>  <!-- Aqui foi adicionado um exemplo de style no modo inline -->
+                <h2>Teste2</h2>
+                <h3>Teste3</h3>
+                <h4>Teste4</h4>
+                <h5>Teste5</h5>
+                <h6>Teste6</h6>
+            </div>
+        </section>
+        <aside> <!-- Define o conteudo que é colocado na lateral da pagina refenciando o conteudo principal -->
+            <ul> <!-- Define a lista nao ordenada --> 
+                <li>Café</li>
+                <li>Chá</li>
+                <li>Coca cola</li>
+            </ul>
+            <ol> <!-- Define uma lista ordenada (numerica ou alfabetica) --> 
+                <li>Café</li>
+                <li>Chá</li>
+                <li>Suco</li>
+            </ol>
+        </aside>
+        <form>
+            <label for="Nome">Email:</label>
+            <input type="text">
+
+            <label for="Senha">Senha:</label>
+            <input type="password" name="Senha" id="">
+
+            <label for="Email">Email:</label>
+            <input type="email" name="" id="">
+
+            <label for="Number">Numero:</label>
+            <input type="number" name="" id="">
+
+            <label for="datetime">Data:</label>
+            <input type="datetime" name="" id="">
+
+            <button>Botão</button>
+        </form>
+
+        <!-- Abaixo, o video com a largura demarcada e controls significa em ativar os controles do video no html
+        o source chama o arquivo em si e o type explica o tipo de midia que está sendo executado -->
+
+        <!-- <video width="auto" controls>
+            <source src="teste.mp4" type="video/mp4">
+        </video>  -->
+    </main>
+
+</body>
+</html>

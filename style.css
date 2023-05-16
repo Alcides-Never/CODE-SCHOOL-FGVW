@@ -1,0 +1,12 @@
+/* *{
+    text-decoration: none;
+
+} */
+
+h3 {
+    color: green;
+}
+
+input[type="password"]{
+    color: violet;
+}
