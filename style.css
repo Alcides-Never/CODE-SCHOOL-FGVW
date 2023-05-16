@@ -3,10 +3,42 @@
 
 } */
 
-h3 {
+/* h3 {
     color: green;
 }
 
 input[type="password"]{
     color: violet;
+} */
+
+.secao{
+    margin-top: 50px;
+    height: 400px;
+    width: 800px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+} 
+.quadrado{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    border: solid 2px black;
+}
+.retangulo{
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quadra{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border: solid 2px black;
 }
