@@ -6,20 +6,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    text-decoration: none;
 }
+
+:root{
+    --azul: #060821;
+    --rosa: #c12d6d;
+    --branco: #ffffff;
+
+    --fonte1: 'Righteous', cursive;
+    --fonte2: 'Titillium Web', sans-serif;
+}
+
 header{
-    background-color: #060821;
+    background-color: var(--azul);
+    /* background-color: #060821; */
 }
+
 .posicionamentoHeader{
   width: 1400px;
   margin: 0 auto;
-  background-color: blue;  
+  /* background-color: aqua;   */
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
+  height: 80px;
 }
 
-/* body{
-    background-color: #000;
-} */
+.posicionamentoHeader img{
+    width: 250px;
+}
 
+header nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonte1);
+    font-size: 18px;
+}
+
+header a{
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btnLogin{
+    border: 3px solid var(--rosa);
+    padding: 1px 25px;
+    border-radius: 30%;
+}
+h1{
+    position: absolute;
+    left: -999em;
+    width: 1em;
+}
+
+.banner{
+    background-image: url(../img/banner-background.png);
+    
+}
