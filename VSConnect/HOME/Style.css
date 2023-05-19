@@ -64,5 +64,55 @@ h1{
 
 .banner{
     background-image: url(../img/banner-background.png);
-    
+    height: calc(100vh - 80px);
+    color: var(--branco);
+    font-family: var(--fonte2);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.bannerConteudo{
+    background: linear-gradient(114.61deg, rgba(255, 255, 255, 0.052) 1.08%, rgba(255, 255, 255, 0.117) 99.26%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.bannerSlogan1{
+    font-size: 60px;
+    font-family: var(--fonte1);
+}
+.bannerSlogan2{
+    font-size: 24px;
+    margin: 50px;
+
+}
+.bannerSlogan3{
+    font-size: 22px;
+    text-decoration: underline;
+}
+.bannerBotoes{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+.botao{
+    font-family: var(--fonte1);
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 18px;
+    /* text-decoration: none; - já colocado no css reser */
+}
+.bannerBotaoDev{
+    background: rgba(255, 255, 255, 0.01);
+    border: 4px solid var(--rosa);
+    padding: 10px 30px;
+    /* border-radius: 30px; */
 }
