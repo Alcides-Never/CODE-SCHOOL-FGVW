@@ -22,7 +22,6 @@
 
 header{
     background-color: var(--azul);
-    /* background-color: #060821; */
 }
 
 .posicionamentoHeader{
@@ -222,4 +221,23 @@ main li{
     position: absolute;
     top: -30px;
     width: 120px;
+}
+.footer{
+    background-image: url(../img/background_footer.png);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.conteudoFooter{
+    background-color: aquamarine;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    background-color: #FF398F;
 }
