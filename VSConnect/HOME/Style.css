@@ -222,22 +222,102 @@ main li{
     top: -30px;
     width: 120px;
 }
-.footer{
+footer{
     background-image: url(../img/background_footer.png);
-    height: 700px;
+    height: 650px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .conteudoFooter{
-    background-color: aquamarine;
-    width: 1000px;
+    background: linear-gradient(114.61deg, rgba(255, 255, 255, 0.052) 1.08%, rgba(255, 255, 255, 0.117) 99.26%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 100px;
+    width: 900px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    position: relative;
+    top: -40px;
+}
+.conteudoFooter img{
+    width: 320px;
     height: 400px;
+    position: relative;
+    top: -70px;
+}
+.conteudoInfo{
+    width: 470px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudoInfo p{
+    font-family: var(--fonte2);
+    font-size: 27px;
+    font-weight: 900;
+    color: var(--branco);
+}
+.conteudoInfo a{
+    padding: 15px 55px;
+    background-color: var(--branco);
+    text-align: center;
+    color: var(--azulC);
+    font-size: 20px;
+    margin-top: 20px;
+}
+.conteudoFooter2{
     display: flex;
     justify-content: space-between;
+    width: 70%;
+    height: 200px;
+    padding: 5px 100px;
+    margin-top: 10px;
 }
-
-.btn{
-    width: 100px;
-    height: 100px;
-    background-color: #FF398F;
+.linksFooter{
+    font-family: var(--fonte2);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--branco);
+    text-transform: capitalize;   
+}
+.linksFooter span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.linksFooter ul{
+    margin-top: 5px;
+}
+#logoFooter{
+    width: 300px;
+}
+.contatoFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: var(--fonte2);
+    color: var(--branco);
+}
+.contatoFooter span{
+    font-size: 25px;
+    font-weight: 900;
+}
+.social{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+.contatoFooter p{
+    font-size: 12px;
 }
