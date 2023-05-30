@@ -6,25 +6,24 @@
 }
 header{
     background-color: #0e0e0e;
-    height: 100px;
+    height: 80px;
 }
 .containerGrid{
-    width: 13000p;
+    width: 1300px;
     height:100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #c12d6d; */
 }
 .logo{
     width: 230px;
 }
 header nav{
-    width: 300px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
-    background-color: #9c2458;
+    /* background-color: #9c2458; */
 }
 header nav a{
     color:white;
