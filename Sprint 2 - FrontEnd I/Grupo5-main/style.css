@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --verde1: #1B8D73;
+
+    --inter: 'Inter', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 1980px;
+    /* margin: 0 auto; */
+
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: var(--verde1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+header nav{
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: greenyellow; */
+ }
+ header a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900; 
+    /* A fonte nao está acatando maiores informações do bolder    */
+    font-size: 18px;
+    font-family: var(--poppins);
+    /* background-color: goldenrod; */
+ }
+.btnEntrar{
+    padding: 5px 45px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.secao1{
+    background-image: url(./IMG/nós\ cuidamos\ com\ amor\ 1.png);
+    background-position: cover;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 870px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: black; */
+}
+.logoSecao1{
+    width: 180px;
+    height: 180px;
+}
+.conteudoSecao1{
+    display: flex;
+    justify-content: space-between;
+}
+.textoConteudoSecao1{
+    width: 45%;
+    height: 500px;
+}
+.textoConteudoSecao1 h2{
+    font-family: var(--poppins);
+    font-size: 28px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.textoConteudoSecao1 p{
+    font-family: var(--inter);
+    font-size: 27px;
+    font-weight: 500;
+
+}
+.imagemConteudoSecao1{
+    background-image: url(./IMG/img_grupo.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    /* height: auto; */
+    /* max-width: auto; */
+    width: 700px;
+    /* width: 50%; */
+    /* background-size: 100%; */
+}
+.secao2{
+    background-image: url(./IMG/fundo\ branco\ 3\ 2.png);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.valoresSecao2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.card h2{
+    font-family: var(--poppins);
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.card img{
+    height: 380px;
+    width: 300px;
+}
+.card p{
+    font-family: var(--inter);
+    font-size: 30px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.missao img{
+    width: 250px;
+    height: 250px;
+    margin-top: 45px ;
+    margin-bottom: 50px;
+}
+.visao p{
+    width: 120%;
+}
+.valores img{
+    margin-top: 40px;
+    width: 270px;
+    height: 270px;
+}
+#valoresLogoOk{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -240px;        
+}
+.valores p{
+    position: relative;
+    top: -70px;
+}
+
+footer{
+    height: 250px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    background-color: var(--verde1);
+}
+#containerFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contatoFooter{
+    height: 70%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.email{
+    display: flex;
+    align-items:center;
+}
+.email img{
+    width: 30px;
+    height: 20px;
+}
+.email p{
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: white;
+}
+.whats{
+    display: flex;
+    align-items:center;
+}
+.whats img{
+    width: 25px;
+    height: 25px;
+}
+.whats p{
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: white;
+}
+.adress{
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.menuFooter{
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+.menuFooter ul{
+    list-style-type: none;
+    margin-left: 30px;
+}
+.menuFooter a{
+    color: white;
+}
+.boletimFooter{
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    height: 70%;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.boletimFooter h2{
+    margin-top: 10px;
+}
+.boletimFooter form{
+    margin-bottom: 20px;
+}
+.boletimFooter a{
+    color: white;
+    text-transform: uppercase;
+    border: 4px solid white;
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin-left: 15px;
+}
+.boletimFooter input{
+    width: 320px;
+    height: 35px;
+    border-radius: 30px;
+}
+.iconesFooter{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconesFooter img{
+    width: 35px;
+    height: 35px;
+}
+::placeholder{
+    text-transform: uppercase;
+    color: red;
+}
+
+@media screen and (max-width:1400px) {
+    .wrapper{
+        width: 85%;
+    }
+    .menuHeader>nav>a{
+        font-size: 18px;
+        /* background-color: blueviolet; */
+    }
+    .btnEntrar{
+        padding: 5px 35px;
+        border: 2px solid white;
+        /* border-radius: 20px; */
+
+}
+@media screen and (max-width: 1250px){
+    .wrapper{
+        width: 90%;
+    }
+    /* .menuHeader>nav>a{
+        font-size: 15px;
+        background-color: blueviolet;
+    } */
+
+}
